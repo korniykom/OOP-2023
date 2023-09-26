@@ -36,8 +36,12 @@ public class GameAccount {
         var report = new System.Text.StringBuilder();
         decimal won = 0;
         decimal lost = 0;
+        report.AppendLine("|--------|------------|----------|");
+        report.AppendLine("|UserName|OpponentName|UserRating|");
+        report.AppendLine("|--------|------------|----------|");
         foreach(var item in allGames) {
-            report.AppendLine($"________\n Player {UserName} had rating of {item.rating} point(s) after game against player {item.opponentName}");
+            report.AppendLine(String.Format("|{0,8}|{1,12}|{2,10}|", UserName, item.opponentName,item.rating));
+            report.AppendLine("|--------|------------|----------|");
         }
         return report.ToString();
     }
