@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\LAB1.csproj": {}
+    "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\LAB1_remake.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\LAB1.csproj": {
+    "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\LAB1_remake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\LAB1.csproj",
-        "projectName": "LAB1",
-        "projectPath": "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\LAB1.csproj",
+        "projectUniqueName": "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\LAB1_remake.csproj",
+        "projectName": "LAB1_remake",
+        "projectPath": "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\LAB1_remake.csproj",
         "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Max\\Desktop\\OOP\\LAB1\\obj\\",
         "projectStyle": "PackageReference",
