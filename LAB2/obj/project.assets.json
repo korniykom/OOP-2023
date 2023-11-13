@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Max\\Desktop\\OOP-2023\\LAB1\\LAB1_remake.csproj",
+      "projectUniqueName": "C:\\Users\\Max\\Desktop\\OOP-2023\\LAB2\\LAB1_remake.csproj",
       "projectName": "LAB1_remake",
-      "projectPath": "C:\\Users\\Max\\Desktop\\OOP-2023\\LAB1\\LAB1_remake.csproj",
+      "projectPath": "C:\\Users\\Max\\Desktop\\OOP-2023\\LAB2\\LAB1_remake.csproj",
       "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Max\\Desktop\\OOP-2023\\LAB1\\obj\\",
+      "outputPath": "C:\\Users\\Max\\Desktop\\OOP-2023\\LAB2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
