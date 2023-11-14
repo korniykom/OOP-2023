@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 
 namespace MyGame {
     public class GameLogs { 
-        //Constructor
-        public GameLogs(string playerName, int playerRating, string opponentName, int opponentRating, string outcome, uint id, int bet) {
-            this.playerName = playerName;
-            this.playerRating = playerRating;
-            this.opponentName = opponentName;
-            this.opponentRating = opponentRating;
+        public GameLogs( GameAccount player, GameAccount opponent, string outcome, int bet)
+        {
+            playerName = player.UserName;
+            playerRating= player.CurrentRating;
+            opponentName = opponent.UserName;
+            opponentRating = opponent.CurrentRating;
             this.outcome = outcome;
-            gameID = id;
+            gameID = gameIDSeed;
             gameIDSeed++;
-            this.GameBet = bet;
+            GameBet = bet;
         }
         public uint gameID;
         public static uint gameIDSeed = 100;
