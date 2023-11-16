@@ -13,18 +13,11 @@ namespace MyGame
         }
         public override int CalculatePoints(int bet, string outcome)
         {
-            if(outcome == "Win")
+            if( outcome != "Win" && outcome != "Lose")
             {
-                return bet;
-            }
-            else if (outcome == "Lose")
-            {
-                return bet;
-            }
-            else
-            {
-                throw new ArgumentException("Parameter should be \"Win\" or \"Lose\"");
-            }
+                 throw new ArgumentException("Parameter should be \"Win\" or \"Lose\"");
+            }   
+            return bet;
         }
     }
 }   
