@@ -2,16 +2,15 @@ namespace MyGame
 {
     public class AccountFactory
     {
-        private int id = 0;
-        public GameAccount MakeAccount(string type)
+        public GameAccount MakeAccount(string type, string name)
         {
             if(type == "premium")
             {
-                return new PremiumAccount("Premium Accoutn #" + id++);
+                return new PremiumAccount(name);
             } 
             else if (type == "regular")
             {
-                return new RegularAccount("Regular Account #" + id++);
+                return new RegularAccount(name);
             }
             throw new ArgumentException("Enter valid type of Account");
         }
