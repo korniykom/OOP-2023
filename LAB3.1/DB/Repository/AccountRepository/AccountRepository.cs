@@ -13,8 +13,14 @@ namespace MyGame
             return context.PlayerDB;
         }
         public GameAccount GetById(int id)
-        {
-            return context.PlayerDB.FirstOrDefault(player => player.id == id);  
+        {   
+            var player = context.PlayerDB.FirstOrDefault(player => player.id == id); 
+            if(player != null) 
+            {
+                return player;
+            } else {
+                throw new ArgumentNullException("Account with given id does not exist");
+            }
         }
         public GameAccount Create(string type, string name)
         {

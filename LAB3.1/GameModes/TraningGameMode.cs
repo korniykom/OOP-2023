@@ -7,7 +7,6 @@ namespace MyGame
 {
     public class TrainingGameMode : GameMode 
     {
-        public string modeType = "Training Mode";
         public override void PlayAnGame(GameAccount winner, GameAccount loser, int bet = 0)
         {
             winner.WinGame(loser, 0);
