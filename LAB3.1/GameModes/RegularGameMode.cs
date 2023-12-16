@@ -7,7 +7,6 @@ namespace MyGame
 {
     public class RegularGameMode : GameMode
     {
-    public string modeType = "Regular Mode";
         public override void PlayAnGame(GameAccount winner, GameAccount loser, int bet)
         {
             if(bet < 1)
