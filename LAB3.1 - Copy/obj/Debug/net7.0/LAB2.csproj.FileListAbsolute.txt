@@ -1,0 +1,56 @@
+/home/max/projects/OOP-2023/LAB2/bin/Debug/net7.0/LAB2
+/home/max/projects/OOP-2023/LAB2/bin/Debug/net7.0/LAB2.deps.json
+/home/max/projects/OOP-2023/LAB2/bin/Debug/net7.0/LAB2.runtimeconfig.json
+/home/max/projects/OOP-2023/LAB2/bin/Debug/net7.0/LAB2.dll
+/home/max/projects/OOP-2023/LAB2/bin/Debug/net7.0/LAB2.pdb
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/LAB2.GeneratedMSBuildEditorConfig.editorconfig
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/LAB2.AssemblyInfoInputs.cache
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/LAB2.AssemblyInfo.cs
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/LAB2.csproj.CoreCompileInputs.cache
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/LAB2.dll
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/refint/LAB2.dll
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/LAB2.pdb
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/LAB2.genruntimeconfig.cache
+/home/max/projects/OOP-2023/LAB2/obj/Debug/net7.0/ref/LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB2\bin\Debug\net7.0\LAB2.exe
+C:\Users\Max\Desktop\OOP-2023\LAB2\bin\Debug\net7.0\LAB2.deps.json
+C:\Users\Max\Desktop\OOP-2023\LAB2\bin\Debug\net7.0\LAB2.runtimeconfig.json
+C:\Users\Max\Desktop\OOP-2023\LAB2\bin\Debug\net7.0\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB2\bin\Debug\net7.0\LAB2.pdb
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\LAB2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\LAB2.AssemblyInfoInputs.cache
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\LAB2.AssemblyInfo.cs
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\LAB2.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\refint\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\LAB2.pdb
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\LAB2.genruntimeconfig.cache
+C:\Users\Max\Desktop\OOP-2023\LAB2\obj\Debug\net7.0\ref\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\bin\Debug\net7.0\LAB2.exe
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\bin\Debug\net7.0\LAB2.deps.json
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\bin\Debug\net7.0\LAB2.runtimeconfig.json
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\bin\Debug\net7.0\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\bin\Debug\net7.0\LAB2.pdb
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\LAB2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\LAB2.AssemblyInfoInputs.cache
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\LAB2.AssemblyInfo.cs
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\LAB2.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\refint\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\LAB2.pdb
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\LAB2.genruntimeconfig.cache
+C:\Users\Max\Desktop\OOP-2023\LAB3.1\obj\Debug\net7.0\ref\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\bin\Debug\net7.0\LAB2.exe
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\bin\Debug\net7.0\LAB2.deps.json
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\bin\Debug\net7.0\LAB2.runtimeconfig.json
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\bin\Debug\net7.0\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\bin\Debug\net7.0\LAB2.pdb
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\LAB2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\LAB2.AssemblyInfoInputs.cache
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\LAB2.AssemblyInfo.cs
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\LAB2.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\refint\LAB2.dll
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\LAB2.pdb
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\LAB2.genruntimeconfig.cache
+C:\Users\Max\Desktop\OOP-2023\LAB3.1 - Copy\obj\Debug\net7.0\ref\LAB2.dll

@@ -6,7 +6,6 @@ namespace MyGame
         public AccountRepotitory()
         {
             context = new ();
-
         }
         public IEnumerable<GameAccount> GetAllPlayers()
         {
@@ -30,8 +29,7 @@ namespace MyGame
         }
         public void UpdateName(int id, string name)
         {
-            GameAccount currentPlayer = this.GetById(id);
-            currentPlayer.UserName = name;
+            GetById(id).UserName = name;
         }
     }
 }
