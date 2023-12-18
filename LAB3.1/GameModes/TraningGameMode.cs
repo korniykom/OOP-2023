@@ -7,10 +7,13 @@ namespace MyGame
 {
     public class TrainingGameMode : GameMode 
     {
-        public override void PlayAnGame(GameAccount winner, GameAccount loser, int bet = 0)
+        public TrainingGameMode(GameAccount winner, GameAccount loser, int bet) : base(winner, loser, bet)
         {
-            winner.WinGame(loser, 0);
-            loser.LoseGame(winner, 0);
+            
+        }
+        public override GameMode PlayGame(GameAccount winner, GameAccount loser, int bet = 0)
+        {
+           return new TrainingGameMode(winner, loser, bet); 
         }
     }
 }

@@ -7,7 +7,11 @@ namespace MyGame
 {
     public class RegularGameMode : GameMode
     {
-        public override void PlayAnGame(GameAccount winner, GameAccount loser, int bet)
+        public RegularGameMode(GameAccount winner, GameAccount loser, int bet) : base(winner, loser, bet)
+        {
+            
+        }
+        public override GameMode PlayGame(GameAccount winner, GameAccount loser, int bet)
         {
             if(bet < 1)
             {
@@ -15,8 +19,7 @@ namespace MyGame
             }
             if(winner != loser)
             {
-                winner.WinGame(loser, winner.CalculatePoints(bet, "Win"));
-                loser.LoseGame(winner, loser.CalculatePoints(bet, "Lose"));
+                return new RegularGameMode(winner, loser, bet);
             }
             else
             {

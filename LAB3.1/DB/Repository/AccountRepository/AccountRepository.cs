@@ -7,29 +7,19 @@ namespace MyGame
         {
             context = new ();
         }
+        public GameAccount Create(string type, string name)
+        {
+            GameAccount player = new AccountFactory().MakeAccount(type, name);
+            context.CreateAccount(player);
+            return player;
+        }
         public IEnumerable<GameAccount> GetAllPlayers()
         {
             return context.PlayerDB;
         }
         public GameAccount GetById(int id)
         {   
-            var player = context.PlayerDB.FirstOrDefault(player => player.id == id); 
-            if(player != null) 
-            {
-                return player;
-            } else {
-                throw new ArgumentNullException("Account with given id does not exist");
-            }
-        }
-        public GameAccount Create(string type, string name)
-        {
-            GameAccount player = new AccountFactory().MakeAccount(type, name);
-            context.PlayerDB.Add(player);
-            return player;
-        }
-        public void UpdateName(int id, string name)
-        {
-            GetById(id).UserName = name;
+            return context.GetById(id);
         }
     }
 }

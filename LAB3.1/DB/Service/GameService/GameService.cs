@@ -1,12 +1,20 @@
 namespace MyGame
 {
-    public class GameService : IGameService
-    {
+   public class GameService : IGameService
+   {
         public IGameRepository repository = new GameRepository();
-        public GameMode Create(string gameMode)
+        public void PlayGame(string gamemode, GameAccount winner, GameAccount loser, int bet)
         {
-            GameMode game = repository.Create(gameMode);
-            return game;
+            repository.PlayGame(gamemode, winner, loser, bet);
+        }
+
+        public IEnumerable<GameMode> GetAllGames()
+        {
+            return repository.GetAllGames();
+        }
+        public IEnumerable<GameMode> GetGamesByName(string name)
+        {
+            return repository.GetGamesByName(name);
         }
     }
 }

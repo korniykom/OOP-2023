@@ -2,7 +2,8 @@ namespace MyGame
 {
     public interface IGameRepository
     {
+        void PlayGame (string gamemode,GameAccount winner, GameAccount loser, int bet);
         IEnumerable<GameMode> GetAllGames();
-        GameMode Create (string gameMode);
+        IEnumerable<GameMode> GetGamesByName(string name);
     }
 }

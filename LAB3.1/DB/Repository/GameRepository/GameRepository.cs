@@ -3,19 +3,21 @@ namespace MyGame
     public class GameRepository : IGameRepository
     {
         private DbContext context;
-        public GameRepository() 
+        public GameRepository()
         {
             context = new ();
         }
         public IEnumerable<GameMode> GetAllGames()
         {
-            return context.GameDB;
+            return context.GetAllGames();
         }
-        public GameMode Create(string gameMode)
+        public void PlayGame (string gamemode, GameAccount winner, GameAccount loser, int bet)
         {
-            GameMode game = new GameFactory().CreateGame(gameMode);
-            context.GameDB.Add(game);
-            return game;
+            context.CreateGame(new GameFactory().PlayGame(gamemode, winner, loser, bet));
+        }
+        public IEnumerable<GameMode> GetGamesByName(string name)
+        {
+            return context.GetGamesByName(name);
         }
     }
 }

@@ -2,7 +2,7 @@ namespace MyGame
 {
     public class GameFactory
     {
-        public GameMode CreateGame(string gameMode)
+        public GameMode PlayGame(string gameMode, GameAccount winner, GameAccount loser, int bet)
         {
             if(gameMode != "training" && gameMode != "regular")
             {
@@ -10,11 +10,11 @@ namespace MyGame
             }
             if(gameMode == "training")
             {
-                return new TrainingGameMode();
+                return new TrainingGameMode(winner, loser, bet);
             }
             else
             {
-                return new RegularGameMode();
+                return new RegularGameMode(winner, loser, bet);
             }
         }
     }
