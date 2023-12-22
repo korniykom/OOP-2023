@@ -9,7 +9,8 @@ namespace MyGame
     {
         public RegularGameMode(GameAccount winner, GameAccount loser, int bet) : base(winner, loser, bet)
         {
-            
+            winner.CurrentRating += bet;
+            loser.CurrentRating -= bet;
         }
         public override GameMode PlayGame(GameAccount winner, GameAccount loser, int bet)
         {

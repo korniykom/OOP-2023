@@ -20,18 +20,18 @@
             
             var allGames = gameService.GetAllGames();
             System.Console.WriteLine("All games");
-            foreach(GameMode game in allGames)
+            foreach(GameDomain game in allGames)
             {
-                System.Console.WriteLine($"Game id: {game.gameID}, game winner: {game.winner.UserName}, game loser: {game.loser.UserName}, game bet: {game.GameBet}");
+                System.Console.WriteLine($"Game id: {game.gameId}, game winner: {game.winnerName}, game loser: {game.loserName}, game bet: {game.gameBet}");
             }
             System.Console.WriteLine();
 
 
             var JohnGames = gameService.GetGamesByName("John");
             System.Console.WriteLine("John's games");
-            foreach(GameMode game in JohnGames)
+            foreach(GameDomain game in JohnGames)
             {
-                System.Console.WriteLine($"Game id: {game.gameID}, game winner: {game.winner.UserName}, game loser: {game.loser.UserName}, game bet: {game.GameBet}");
+                System.Console.WriteLine($"Game id: {game.gameId}| player {game.winnerName} ({game.winnerRating} rating) vs player {game.loserName}({game.loserRating} rating)| Game bet:{game.gameBet}| game mode: {game.gameMode}");
             } 
         }
     }

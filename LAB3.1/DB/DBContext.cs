@@ -2,7 +2,7 @@ namespace MyGame{
     public class DbContext
     {
         public List<GameAccount> PlayerDB {get; set;}
-        public List<GameMode> GameDB {get; set;}
+        public List<GameDomain> GameDB {get; set;}
         public DbContext()
         {
             PlayerDB = new ();
@@ -22,20 +22,20 @@ namespace MyGame{
                 throw new ArgumentNullException("Account with given id does not exist");
             }
         }
-        public void CreateGame(GameMode game)
+        public void CreateGame(GameDomain game)
         {
             GameDB.Add(game);
         }
-        public IEnumerable<GameMode> GetAllGames()
+        public IEnumerable<GameDomain> GetAllGames()
         {
             return GameDB;
         }
-        public IEnumerable<GameMode> GetGamesByName(string name)
+        public IEnumerable<GameDomain> GetGamesByName(string name)
         {
-            var games = new List<GameMode>();
-            foreach(GameMode game in GameDB)
+            var games = new List<GameDomain>();
+            foreach(GameDomain game in GameDB)
             {
-                if(game.winner.UserName == name || game.loser.UserName == name)
+                if(game.winnerName == name || game.loserName == name)
                 {
                     games.Add(game);
                 }
