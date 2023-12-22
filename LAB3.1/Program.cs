@@ -22,7 +22,7 @@
             System.Console.WriteLine("All games");
             foreach(GameDomain game in allGames)
             {
-                System.Console.WriteLine($"Game id: {game.gameId}, game winner: {game.winnerName}, game loser: {game.loserName}, game bet: {game.gameBet}");
+                System.Console.WriteLine($"Game id: {game.gameId}| player {game.winnerName} ({game.winnerRating} rating) vs player {game.loserName} ({game.loserRating} rating)| Game bet:{game.gameBet}| game mode: {game.gameMode}");
             }
             System.Console.WriteLine();
 
@@ -31,7 +31,22 @@
             System.Console.WriteLine("John's games");
             foreach(GameDomain game in JohnGames)
             {
-                System.Console.WriteLine($"Game id: {game.gameId}| player {game.winnerName} ({game.winnerRating} rating) vs player {game.loserName}({game.loserRating} rating)| Game bet:{game.gameBet}| game mode: {game.gameMode}");
+                System.Console.WriteLine($"Game id: {game.gameId}| player {game.winnerName} ({game.winnerRating} rating) vs player {game.loserName} ({game.loserRating} rating)| Game bet:{game.gameBet}| game mode: {game.gameMode}");
+            } 
+            System.Console.WriteLine();
+
+            var MaxGames = gameService.GetGamesByName("Max");
+            System.Console.WriteLine("Max's games");
+            foreach(GameDomain game in MaxGames)
+            {
+                System.Console.WriteLine($"Game id: {game.gameId}| player {game.winnerName} ({game.winnerRating} rating) vs player {game.loserName} ({game.loserRating} rating)| Game bet:{game.gameBet}| game mode: {game.gameMode}");
+            } 
+            System.Console.WriteLine();
+            var AlanGames = gameService.GetGamesByName("Max");
+            System.Console.WriteLine("Alan's games");
+            foreach(GameDomain game in AlanGames)
+            {
+                System.Console.WriteLine($"Game id: {game.gameId}| player {game.winnerName} ({game.winnerRating} rating) vs player {game.loserName} ({game.loserRating} rating)| Game bet:{game.gameBet}| game mode: {game.gameMode}");
             } 
         }
     }

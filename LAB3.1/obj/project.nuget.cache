@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SJV/cf29O0JSzRDtkSGyjaKjeaB6l0tVUKD2LvK/I0sTLfo/wNcyT8Kn3Y4p9GTMrckfUzXDsdbs13ZmiiEl1g==",
+  "dgSpecHash": "xOWp1AhuuqVmk/Yhum80bZZxRBW0L+CjlnEcEx8/FWm0whLkfZ7L+FGnbXDzmeKiXL+sSz12d2p5LUzFDINAgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Max\\Desktop\\OOP-2023\\LAB3.1\\LAB2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/max/OOP-2023/LAB3.1/LAB2.csproj",
+  "expectedPackageFiles": [
+    "/home/max/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
