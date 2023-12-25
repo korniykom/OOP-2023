@@ -2,7 +2,11 @@ namespace MyGame
 {
     public class AccountService : IAccountService
     {
-        public IAccountRepository repository = new AccountRepotitory();
+        public IAccountRepository repository;
+        public AccountService(DbContext context)
+        {
+            repository = new AccountRepotitory(context);
+        }
         public GameAccount CreateAccount(string type, string name)
         {
             GameAccount player = repository.Create(type, name);

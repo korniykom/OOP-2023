@@ -3,9 +3,9 @@ namespace MyGame
     public class AccountRepotitory : IAccountRepository
     {
         private DbContext context;
-        public AccountRepotitory()
+        public AccountRepotitory(DbContext dbContext)
         {
-            context = new ();
+            context = dbContext;
         }
         public GameAccount Create(string type, string name)
         {
