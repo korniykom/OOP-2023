@@ -42,7 +42,7 @@
                 System.Console.WriteLine($"Game id: {game.gameId}| player {game.winnerName} ({game.winnerRating} rating) vs player {game.loserName} ({game.loserRating} rating)| Game bet:{game.gameBet}| game mode: {game.gameMode}");
             } 
             System.Console.WriteLine();
-            var AlanGames = gameService.GetGamesByName("Max");
+            var AlanGames = gameService.GetGamesByName("Alan");
             System.Console.WriteLine("Alan's games");
             foreach(GameDomain game in AlanGames)
             {

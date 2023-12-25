@@ -21,5 +21,18 @@ namespace MyGame
         {   
             return context.GetById(id);
         }
+        public GameAccount GetAccountByName(string name)
+        {
+            IEnumerable<GameAccount> allAccounts = GetAllPlayers();
+            foreach(GameAccount account in allAccounts)
+            {
+                if(account.UserName == name)
+                {
+                    return account;
+                }
+            }
+            throw new Exception("Account with given name does not exist");
+
+        }
     }
 }

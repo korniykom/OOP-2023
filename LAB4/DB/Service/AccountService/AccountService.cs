@@ -21,5 +21,9 @@ namespace MyGame
             }
             System.Console.WriteLine();
         }
+        public GameAccount GetAccountByName(string name)
+        {
+            return repository.GetAccountByName(name);
+        }
     }
 }

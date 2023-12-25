@@ -3,9 +3,9 @@ namespace MyGame
     public class GameRepository : IGameRepository
     {
         private DbContext context;
-        public GameRepository()
+        public GameRepository(DbContext dbContext)
         {
-            context = new ();
+            context = dbContext;
         }
         public IEnumerable<GameDomain> GetAllGames()
         {
@@ -19,6 +19,7 @@ namespace MyGame
         public IEnumerable<GameDomain> GetGamesByName(string name)
         {
             return context.GetGamesByName(name);
+
         }
     }
 }

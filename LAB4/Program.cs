@@ -10,7 +10,10 @@
             List<ICommand> commandList = new List<ICommand>
                 {
                     new ShowAccounts(db),
-                    new CreateAccount(db)
+                    new CreateAccount(db),
+                    new ShowAccountStatsByName(db),
+                    new PlayAGame(db),
+                    new ShowGames(db),
                 };
 
             void DispalyMenu()
@@ -37,9 +40,7 @@
                 else
                 {
                     commandList[int.Parse(userInput)].DoSmth();
-                }
-                
-                
+                }              
             }
 
 
