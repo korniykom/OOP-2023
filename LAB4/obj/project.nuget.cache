@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4IEgefkvKNziXCV5Bj5Sg2sNBq3ytzm2gDFT0UB0cmzogDBE16gou3SR0s3uJk5L4S4gBwwvXmPG4UC7bFoZAw==",
+  "success": true,
+  "projectFilePath": "/home/max/OOP-2023/LAB4/LAB2.csproj",
+  "expectedPackageFiles": [
+    "/home/max/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
