@@ -5,19 +5,47 @@
         static void Main() 
         {
             DbContext db = new DbContext ();
+            int i;
 
-            IAccountService accountService = new AccountService(db);
-            GameAccount player1 = accountService.CreateAccount("premium", "Max");
-            GameAccount player2 = accountService.CreateAccount("premium", "John");
-            GameAccount player3 = accountService.CreateAccount("regular", "Alan");
+            List<ICommand> commandList = new List<ICommand>
+                {
+                    new ShowAccounts(db),
+                    new CreateAccount(db)
+                };
+
+            void DispalyMenu()
+            {
+                 
+                i = 0;
+                foreach (var command in commandList)
+                {
+                    System.Console.WriteLine($"{i++}. {command.ShowInfo()}");
+                } 
+                i = 0;
+            }
+
+            bool isRunning = true;
+
+            while(isRunning)
+            {
+                DispalyMenu();
+                string userInput = Console.ReadLine();
+                if(userInput == "exit")
+                {
+                    isRunning = false;
+                } 
+                else
+                {
+                    commandList[int.Parse(userInput)].DoSmth();
+                }
+                
+                
+            }
 
 
-            CreateAccount newAcc = new CreateAccount(db);
-            newAcc.DoSmth();
-            accountService.ReadAccounts();
+       
 
-                        accountService.ReadAccounts();
-
+            
             
         }
     }
