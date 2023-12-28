@@ -17,7 +17,7 @@ namespace MyGame
             System.Console.WriteLine("All accounts:");
             foreach(GameAccount player in repository.GetAllPlayers())
             {
-                System.Console.WriteLine($"{player.UserName}");
+                System.Console.WriteLine($"{player.UserName} Current Rating {player.CurrentRating}");
             }
             System.Console.WriteLine();
         }
